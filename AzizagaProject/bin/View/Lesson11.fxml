@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="653.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Lesson7Controller">
+   <children>
+      <TabPane prefHeight="653.0" prefWidth="670.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+            <Tab text="Социальная сеть">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="606.0" prefWidth="497.0">
+                     <children>
+                        <Accordion layoutX="14.0" layoutY="14.0" prefHeight="624.0" prefWidth="670.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <panes>
+                            <TitledPane animated="false" text="Home">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="27.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(1).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(2).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="477.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(3).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="27.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #1">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="27.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12,943 Views" />
+                                          <Text layoutX="254.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #2">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="254.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="134,132 Views" />
+                                          <Text layoutX="27.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes Creator" AnchorPane.bottomAnchor="300.0" />
+                                          <Text layoutX="257.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes Creator" />
+                                          <Text layoutX="477.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #3">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="477.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10,743,564 Views" />
+                                          <Text layoutX="480.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes Creator" />
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(4).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="261.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(6).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="477.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(5).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="28.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #4">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="27.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1,359,934 Views" />
+                                          <Text layoutX="27.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes Creator" />
+                                          <Text layoutX="261.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avik">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="262.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="359,934 Views" />
+                                          <Text layoutX="263.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aviki Creator" />
+                                          <Text layoutX="478.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avatar #1">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="480.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23,455 Views" />
+                                          <Text layoutX="480.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avatar Creator" />
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Subscribed">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(5).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(6).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/images.jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/images%20(1).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="143.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avatar Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avik Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NoName">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@Avatar_Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@Avik_Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@Memes_Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@NoName">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="143.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="295,322 Subscribers" />
+                                          <Text layoutX="140.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="384,234,152 Subscribers" />
+                                          <Text layoutX="141.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="340,643 Subscribers" />
+                                          <Text layoutX="145.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0 Subscribers" />
+                                          <Text fill="RED" layoutX="520.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="В Эфире •">
+                                             <font>
+                                                <Font name="Arial Black" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text fill="RED" layoutX="520.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="В Эфире •">
+                                             <font>
+                                                <Font name="Arial Black" size="18.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </TitledPane>
+                            <TitledPane animated="false" text="Account">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(6).jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="33.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="177.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@Memes_Creator">
+                                             <font>
+                                                <Font name="Arial Rounded MT Bold" size="18.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="177.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="340,643 Subscribers">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="177.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I Am From Baku!!! | Deutsch ist meine dritte Sprache!!">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Text>
+                                          <TabPane layoutX="21.0" layoutY="162.0" prefHeight="366.0" prefWidth="628.0" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                              <Tab text="Photo">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(1).jpeg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Text layoutX="31.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #1">
+                                                               <font>
+                                                                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <Text layoutX="41.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12,943 Views" />
+                                                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="191.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(2).jpeg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="351.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(3).jpeg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="499.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../../OneDrive/Desktop/Folders/Azizaga2011!77/BackEnd/JavaFX/Без%20названия%20(4).jpeg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Text layoutX="197.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #2">
+                                                               <font>
+                                                                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <Text layoutX="357.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #3">
+                                                               <font>
+                                                                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <Text layoutX="505.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memes #4">
+                                                               <font>
+                                                                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <Text layoutX="206.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="134,132 Views" />
+                                                            <Text layoutX="366.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10,743,564 Views" />
+                                                            <Text layoutX="515.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1,359,934 Views" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                </content>
+                                              </Tab>
+                                              <Tab text="About">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <Text layoutX="39.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My hobby is playing football.I hate politics.">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                            <Text layoutX="39.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello. My name is Aziz. I am 13 years old. I love programming.">
+                                                               <font>
+                                                                  <Font name="Arial Rounded MT Bold" size="18.0" />
+                                                               </font>
+                                                            </Text>
+                                                         </children>
+                                                      </AnchorPane>
+                                                </content>
+                                              </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </TitledPane>
+                          </panes>
+                        </Accordion>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

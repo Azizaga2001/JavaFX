@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FoodOrderController">
+   <children>
+      <HBox layoutX="14.0" layoutY="7.0" prefHeight="517.0" prefWidth="677.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="TOP_CENTER" maxWidth="300.0" onMouseClicked="#DeleteButton" prefHeight="549.0" prefWidth="157.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MakeOrder">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Label maxWidth="400.0" text="Name">
+                     <VBox.margin>
+                        <Insets left="25.0" right="92.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="nameField" maxWidth="400.0" prefHeight="25.0" promptText="Name" style="-fx-background-color: white; -fx-border-color: red; -fx-border-width: 2px; -fx-border-radius: 2,5px;">
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label maxWidth="400.0" text="Start">
+                     <VBox.margin>
+                        <Insets left="25.0" right="98.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <DatePicker fx:id="StartDatePicker" maxWidth="400.0" promptText="DD.MM.YYYY" style="-fx-background-color: white; -fx-border-color: red; -fx-border-width: 2px; -fx-border-radius: 2,5px;">
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="10.0" />
+                     </VBox.margin>
+                  </DatePicker>
+                  <Label maxWidth="400.0" text="End">
+                     <VBox.margin>
+                        <Insets left="25.0" right="104.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <DatePicker fx:id="EndDatePicker" maxWidth="400.0" promptText="DD.MM.YYYY" style="-fx-background-color: white; -fx-border-color: red; -fx-border-width: 2px; -fx-border-radius: 2,5px;">
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="10.0" />
+                     </VBox.margin>
+                  </DatePicker>
+                  <Label maxWidth="400.0" text="Category">
+                     <VBox.margin>
+                        <Insets left="25.0" right="78.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ComboBox fx:id="CategoryComboBox" maxWidth="400.0" prefWidth="150.0" promptText="Select Category" style="-fx-background-color: white; -fx-border-color: red; -fx-border-width: 2px; -fx-border-width: 2,5px;">
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="10.0" />
+                     </VBox.margin>
+                  </ComboBox>
+                  <Button mnemonicParsing="false" onMouseClicked="#SaveButton" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #65C412;" text="Save">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onMouseClicked="#Update" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #FFC800;" text="Update">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #FF0000;" text="Delete">
+                     <VBox.margin>
+                        <Insets bottom="150.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" maxWidth="2000.0" prefHeight="550.0" prefWidth="520.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Food Order">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </Text>
+                  <TableView fx:id="FoodTableView" prefHeight="450.0" prefWidth="500.0" VBox.vgrow="ALWAYS">
+                    <columns>
+                      <TableColumn fx:id="nameColumn" prefWidth="104.0" style="-fx-background-color: blue;" text="Name" />
+                      <TableColumn fx:id="startColumn" prefWidth="104.0" style="-fx-background-color: blue;" text="Start" />
+                        <TableColumn fx:id="endColumn" prefWidth="104.0" style="-fx-background-color: blue;" text="End" />
+                        <TableColumn fx:id="categoryColumn" prefWidth="104.0" style="-fx-background-color: blue;" text="Category" />
+                        <TableColumn fx:id="statusColumn" prefWidth="104.0" style="-fx-background-color: blue;" text="Status" />
+                    </columns>
+                     <VBox.margin>
+                        <Insets right="5.0" />
+                     </VBox.margin>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
